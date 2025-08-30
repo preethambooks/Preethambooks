@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preetham Books Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: linear-gradient(rgba(44,62,80,0.85), rgba(44,62,80,0.85)), url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: auto;
+      color: #f8f8f8;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      overflow: hidden;
+      padding: 100px 20px 20px; /* Extra top padding for fixed nav */
+    }
+    .book {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .book img {
+      float: left;
+      margin-right: 20px;
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+    }
+    .book h2 {
+      margin: 0;
+      color: #2c3e50;
+    }
+    .book p {
+      color: #555;
+    }
+    .about, .contact {
+      background: white;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Welcome to Preetham Books</h1>
+    <p>Dive into a world of imagination, inspiration, and knowledge. Every book here is a new journey waiting for you – explore, dream, and discover!</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#books">Books</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container" id="books">
+    <div class="book">
+      <img src="https://via.placeholder.com/120x160" alt="Book Cover">
+      <h2>Steps Beyond Failure</h2>
+      <p><strong>Author:</strong> Preetham M</p>
+      <p>A powerful story about struggles, failures, and rising again with courage and passion. This book takes you on an inspiring journey through life’s toughest moments.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>  <div class="container" id="about">
+    <div class="about">
+      <h2>About the Author</h2>
+      <p><strong>Name:</strong> Preetham M</p>
+      <p>Author of <em>Steps Beyond Failure</em> and founder of Preethambooks Publications. Passionate about inspiring readers with stories of courage, resilience, and the power of chasing one’s dreams. Based in Nagavara, Bangalore – 45.</p>
+    </div>
+  </div>  <div class="container" id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to connect, collaborate, or share your feedback, feel free to reach out:</p>
+      <p><strong>Email:</strong> <a href="mailto:preethambooks@gmail.com">preethambooks@gmail.com</a></p>
+      <p><strong>Location:</strong> Nagavara, Bangalore – 45</p>
+    </div>
+  </div>  <footer>
+    <p>&copy; 2025 Preetham Books Website | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
